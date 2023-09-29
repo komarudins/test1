@@ -1,0 +1,4 @@
+RewriteEngine On
+Options +FollowSymLinks
+
+RewriteRule ^([0-9a-zA-Z-]+)/?/?$ /sicaper/index.php?page=$1
